@@ -1,0 +1,24 @@
+{
+  "name": "vladang/mt-custom",
+  "description": "Metatrader 5 Custom Web API for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vlad R.",
+      "email": "vladang586@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vladang\\MtCustom\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Vladang\\MtCustom\\MtCustomProvider"
+      ]
+    }
+  }
+}
