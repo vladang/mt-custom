@@ -26,7 +26,7 @@
     "composer/installers": "~1.0",
     "phpunit/phpunit": "^9.0"
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "alpha",
   "require": {
     "php": "^8.0"
   }
