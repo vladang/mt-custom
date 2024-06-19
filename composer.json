@@ -1,5 +1,6 @@
 {
   "name": "vladang/mt-custom",
+  "version": "1.0.0",
   "description": "Metatrader 5 Custom Web API for Laravel",
   "type": "library",
   "license": "MIT",
