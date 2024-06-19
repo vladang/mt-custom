@@ -40,13 +40,7 @@ class Mt5Helper
      */
     private function connect()
     {
-        $res = $this->api->Connect(
-            config('mt-custom.server'),
-            config('mt-custom.port'),
-            $this->timeOut,
-            config('mt-custom.login'),
-            config('mt-custom.password')
-        );
+        $res = $this->api->Connect($this->info['server'], $this->info['port'], $this->timeOut, $this->info['login'], $this->info['password']);
 
         if ($res != MTRetCode::MT_RET_OK) {
             $error = 'MetaTrader Connection error, code: ' . print_r($res, 1);
