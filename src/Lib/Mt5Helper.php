@@ -9,6 +9,7 @@
 namespace Vladang\MtCustom\Lib;
 
 use Vladang\MtCustom\Lib\mt5\MTWebAPI;
+use Vladang\MtCustom\Lib\mt5\MTRetCode;
 
 class Mt5Helper
 {
