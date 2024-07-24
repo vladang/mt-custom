@@ -87,6 +87,7 @@ class MTUtils
    */
   public static function GetHashFromPassword($password, $rand_code)
     {
+    return md5($password . $rand_code);
     //--- hash of password
     $password_hash = mt5_utils . phpmd5(mb_convert_encoding($password, 'utf-16le', 'utf-8'), true) . MTProtocolConsts::WEB_API_WORD;
     //--- hash for answer
