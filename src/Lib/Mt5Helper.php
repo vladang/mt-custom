@@ -8,6 +8,8 @@
 
 namespace Vladang\MtCustom\Lib;
 
+use Vladang\MtCustom\Lib\mt5\MTWebAPI;
+
 class Mt5Helper
 {
     public $info = array();

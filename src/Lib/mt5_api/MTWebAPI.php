@@ -6,32 +6,32 @@ define("WebAPIVersion", 2361);
 //--- web api date
 define("WebAPIDate", "08 Mar 2020");
 //--- including all classes
-/*
-include "mt5_auth.php";
-include "mt5_utils.php";
-include "mt5_connect.php";
-include "mt5_protocol.php";
-include "mt5_logger.php";
-include "mt5_time.php";
-include "mt5_common.php";
-include "mt5_group.php";
-include "mt5_symbol.php";
-include "mt5_user.php";
-include "mt5_deal.php";
-include "mt5_order.php";
-include "mt5_position.php";
-include "mt5_history.php";
-include "mt5_tick.php";
-include "mt5_mail.php";
-include "mt5_news.php";
-include "mt5_ping.php";
-include "mt5_trade.php";
-include "mt5_custom.php";
-include "mt5_server.php";
-include "mt5_cryptaes256.php";
-include "mt5_json.php";
-include "mt5_retcode.php";
-*/
+
+use Vladang\MtCustom\Lib\mt5\MT5CryptAes256;
+use Vladang\MtCustom\Lib\mt5\MTAuthProtocol;
+use Vladang\MtCustom\Lib\mt5\MTCommonProtocol;
+use Vladang\MtCustom\Lib\mt5\MTConnect;
+use Vladang\MtCustom\Lib\mt5\MTCustomProtocol;
+use Vladang\MtCustom\Lib\mt5\MTDealProtocol;
+use Vladang\MtCustom\Lib\mt5\MTGroupProtocol;
+use Vladang\MtCustom\Lib\mt5\MTHeaderProtocol;
+use Vladang\MtCustom\Lib\mt5\MTHistoryProtocol;
+use Vladang\MtCustom\Lib\mt5\MTJson;
+use Vladang\MtCustom\Lib\mt5\MTLogger;
+use Vladang\MtCustom\Lib\mt5\MTMailProtocol;
+use Vladang\MtCustom\Lib\mt5\MTNewsProtocol;
+use Vladang\MtCustom\Lib\mt5\MTOrderProtocol;
+use Vladang\MtCustom\Lib\mt5\MTPingProtocol;
+use Vladang\MtCustom\Lib\mt5\MTPositionProtocol;
+use Vladang\MtCustom\Lib\mt5\MTRetCode;
+use Vladang\MtCustom\Lib\mt5\MTServer;
+use Vladang\MtCustom\Lib\mt5\MTSymbolProtocol;
+use Vladang\MtCustom\Lib\mt5\MTTickProtocol;
+use Vladang\MtCustom\Lib\mt5\MTTimeProtocol;
+use Vladang\MtCustom\Lib\mt5\MTTradeProtocol;
+use Vladang\MtCustom\Lib\mt5\MTUserProtocol;
+use Vladang\MtCustom\Lib\mt5\MTUtils;
+
 /**
  * Main web api class
  */
