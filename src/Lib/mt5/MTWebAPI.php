@@ -31,6 +31,14 @@ use Vladang\MtCustom\Lib\mt5\MTTimeProtocol;
 use Vladang\MtCustom\Lib\mt5\MTTradeProtocol;
 use Vladang\MtCustom\Lib\mt5\MTUserProtocol;
 use Vladang\MtCustom\Lib\mt5\MTUtils;
+use Vladang\MtCustom\Lib\mt5\MTEnUsersRights;
+use Vladang\MtCustom\Lib\mt5\MTUser;
+use Vladang\MtCustom\Lib\mt5\MTUserAnswer;
+use Vladang\MtCustom\Lib\mt5\MTUserLoginsAnswer;
+use Vladang\MtCustom\Lib\mt5\MTUserAccountAnswer;
+use Vladang\MtCustom\Lib\mt5\MTEnSoActivation;
+use Vladang\MtCustom\Lib\mt5\MTAccount;
+use Vladang\MtCustom\Lib\mt5\MTAuthStartAnswer;
 
 /**
  * Main web api class

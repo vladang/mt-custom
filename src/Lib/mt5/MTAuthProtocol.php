@@ -227,23 +227,6 @@ class MTAuthProtocol
     }
   }
 
-/**
- * Class get answer on request AUTH_START
- */
-class MTAuthStartAnswer
-  {
-  public $RetCode = '-1';
-  public $SrvRand = 'none';
-  }
 
-/**
- * Class get answer on request AUTH_ANSWER
- */
-class MTAuthAnswer
-  {
-  public $RetCode = '-1';
-  public $CliRand = 'none';
-  public $CryptRand = '';
-  }
 
 ?>
