@@ -8,30 +8,8 @@
 
 namespace Vladang\MtCustom\Lib;
 
-use Vladang\MtCustom\Lib\mt5\MT5CryptAes256;
-use Vladang\MtCustom\Lib\mt5\MTAuthProtocol;
-use Vladang\MtCustom\Lib\mt5\MTCommonProtocol;
-use Vladang\MtCustom\Lib\mt5\MTConnect;
-use Vladang\MtCustom\Lib\mt5\MTCustomProtocol;
-use Vladang\MtCustom\Lib\mt5\MTDealProtocol;
-use Vladang\MtCustom\Lib\mt5\MTGroupProtocol;
-use Vladang\MtCustom\Lib\mt5\MTHeaderProtocol;
-use Vladang\MtCustom\Lib\mt5\MTHistoryProtocol;
-use Vladang\MtCustom\Lib\mt5\MTJson;
-use Vladang\MtCustom\Lib\mt5\MTLogger;
-use Vladang\MtCustom\Lib\mt5\MTMailProtocol;
-use Vladang\MtCustom\Lib\mt5\MTNewsProtocol;
-use Vladang\MtCustom\Lib\mt5\MTOrderProtocol;
-use Vladang\MtCustom\Lib\mt5\MTPingProtocol;
-use Vladang\MtCustom\Lib\mt5\MTPositionProtocol;
+use Vladang\MtCustom\Lib\mt5\MTWebAPI;
 use Vladang\MtCustom\Lib\mt5\MTRetCode;
-use Vladang\MtCustom\Lib\mt5\MTServer;
-use Vladang\MtCustom\Lib\mt5\MTSymbolProtocol;
-use Vladang\MtCustom\Lib\mt5\MTTickProtocol;
-use Vladang\MtCustom\Lib\mt5\MTTimeProtocol;
-use Vladang\MtCustom\Lib\mt5\MTTradeProtocol;
-use Vladang\MtCustom\Lib\mt5\MTUserProtocol;
-use Vladang\MtCustom\Lib\mt5\MTUtils;
 
 class Mt5Helper
 {
