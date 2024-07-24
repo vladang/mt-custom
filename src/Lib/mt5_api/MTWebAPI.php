@@ -6,6 +6,7 @@ define("WebAPIVersion", 2361);
 //--- web api date
 define("WebAPIDate", "08 Mar 2020");
 //--- including all classes
+/*
 include "mt5_auth.php";
 include "mt5_utils.php";
 include "mt5_connect.php";
@@ -30,7 +31,7 @@ include "mt5_server.php";
 include "mt5_cryptaes256.php";
 include "mt5_json.php";
 include "mt5_retcode.php";
-
+*/
 /**
  * Main web api class
  */
